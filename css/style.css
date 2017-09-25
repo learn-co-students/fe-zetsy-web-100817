@@ -7,7 +7,7 @@
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -17,4 +17,65 @@ body {
 	padding: 0 45px 20px;
 }
 
-/* Write all remaining styles here */
+/*////////// Images //////////*/
+.logos img {
+	border: 5px solid rgb(204,204,204);
+}
+
+.logos img:hover {
+	border: 5px solid rgb(111,126,122);
+}
+/*////////// Text //////////*/
+header h1 {
+  font-size: 5em;
+  margin: 0 0 5px;
+  font-family: Baskerville, serif;
+  color: rgb(152,173,166);
+}
+
+header h1:hover {
+	color: rgb(111,126,122);
+}
+
+header a {
+	text-decoration: none;
+}
+
+/*////////// Header //////////*/
+header {
+  border-bottom: 1px solid rgb(204,204,204);
+  padding-bottom: 5px;
+}
+
+/*////////// Elements //////////*/
+#featured img{
+  margin-top: 5px;
+  border: 5px solid rgb(152,173,166);
+  margin-bottom: 6px;
+}
+
+h1, h2 {
+  color: rgb(111,126,122);
+}
+
+h2 {
+  font-size: 2em;
+}
+
+p {
+  color: rgb(85,85,85);
+}
+
+#about a {
+  color: rgb(23,134,204);
+  text-decoration: none;
+}
+
+#about a:hover {
+  text-decoration: underline;
+}
+
+footer {
+	font-size: 0.75em;
+	text-align: right;
+}
