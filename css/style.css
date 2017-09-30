@@ -31,6 +31,9 @@ h2 {
 	padding: 0 45px 20px;
 }
 
+footer {
+  text-align: right;
+}
 /* Write all remaining styles here */
 
 #feature-image{
@@ -41,3 +44,5 @@ img {
   border: 5px #ccc solid;
   padding: 1px;
 }
+
+footer
