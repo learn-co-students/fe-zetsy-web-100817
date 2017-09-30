@@ -36,3 +36,8 @@ h2 {
 #feature-image{
   border: 5px rgb(152,173,166) solid;
 }
+
+img {
+  border: 5px #ccc solid;
+  padding: 1px;
+}
