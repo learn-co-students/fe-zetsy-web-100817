@@ -18,6 +18,7 @@ h1 {
   font-family: Baskerville;
   color: rgb(111,127,122);
   font-size: 5em;
+  border-bottom: 1px solic #ccc;
 }
 
 h2 {
