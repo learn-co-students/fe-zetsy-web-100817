@@ -7,9 +7,30 @@
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
-
+h1 {
+	color: rgb(150,170,165);
+	font-size: 5em;
+}
+h2 {
+	color: rgb(111, 127, 122);
+	font-size: 2em;
+}
+.copy{
+	font-size: .75em;
+	text-align: right
+}
+img{
+	border-style: solid;
+	border-width: thick;
+	border-color: rgb(150,170,165);
+}
+#press img{
+	border-style: solid;
+	border-width: thick;
+	border-color: rgb(204,204,204);
+}
 .wrapper {
 	width: 960px;
 	margin: 0 auto;
