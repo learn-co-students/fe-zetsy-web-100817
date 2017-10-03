@@ -1,6 +1,9 @@
 /*////////////// Fonts //////////////*/
 
-/* link the web font used for the level 1 heading here */
+/@font-face {
+	font-family: 'Baskerville';
+	src: url(../fonts/Baskerville.ttc);
+}
 
 /*////////// Global Styles //////////*/
 
@@ -17,4 +20,92 @@ body {
 	padding: 0 45px 20px;
 }
 
-/* Write all remaining styles here */
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	height: 0;
+	line-height: 0;
+
+}
+
+h1 {
+	padding-bottom: 10px;
+	font-family: 'Baskerville', serif;
+	font-size: 5em;
+	margin: 0 0 20px;
+	border-bottom: 1px solid #ccc;
+}
+
+
+/* Text Styles */
+
+h1 a {
+	color: rgb(152,173,166);
+	text-decoration: none;
+	
+}
+
+h1 a:hover {
+	color: rgb(111,127,122);
+}
+
+p {
+	font-size: 1em;
+	color: #555;
+}
+
+h2 {
+	color: rgb(111,127,122);
+}
+
+img[alt*="featured"] {
+	width: 100%;
+	border: 5px solid rgb(152,173,166);
+}
+
+#featured a {
+	color: rgb(23,131,187);
+	text-decoration: none;
+}
+
+#featured a:hover {
+	text-decoration: underline;
+}
+/* Press Links */
+
+
+
+#press {
+	margin:0 0 20px;
+}
+
+#press img[alt*="logo"] {
+	transition: border-color  0.5s ease;
+	border: 5px solid rgb(204,204,204);
+	
+}
+
+#press img:hover {
+	border: 5px solid rgb(111,127,122);
+}
+
+.col-1 {
+	position: relative;
+	float: left;
+	width: 25%;
+	margin-left: 0;
+	overflow: hidden;
+}
+
+.col-2 {
+	position: relative;
+	float: left;
+	width: 25%;
+	overflow: hidden;
+}
+
+p#footer {
+	text-align: right;
+}
